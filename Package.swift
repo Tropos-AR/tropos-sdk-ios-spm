@@ -8,8 +8,8 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "tropos-ar-ios-spm",
-            targets: ["tropos-ar-ios-spm"]),
+            name: "TroposAR",
+            targets: ["tropos-ar-ios-spm","TroposARSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,6 +21,10 @@ let package = Package(
         .target(
             name: "tropos-ar-ios-spm",
             dependencies: []),
+        .binaryTarget(
+                   name: "TroposARSDK",
+                   path: "lib/TroposARSDK.xcframework" // this is a symlink
+               ),
         .testTarget(
             name: "tropos-ar-ios-spmTests",
             dependencies: ["tropos-ar-ios-spm"]),

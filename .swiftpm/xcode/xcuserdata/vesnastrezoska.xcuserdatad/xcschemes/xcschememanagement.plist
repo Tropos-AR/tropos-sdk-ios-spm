@@ -15,5 +15,18 @@
 			<integer>1</integer>
 		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>tropos-ar-ios-spm</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>tropos-ar-ios-spmTests</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
