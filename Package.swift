@@ -11,16 +11,23 @@ let package = Package(
     products: [
        .library(
             name: "tropos-ar-ios-spm",
-            targets: ["tropos-ar-ios-spm", "CrashReporter", "TroposARSDK"])
+            targets: ["tropos-ar-ios-spm", "AVProVideo", "CrashReporter", "TroposARSDK", "UnityFramework"])
     ],
     targets: [
         .target(
                    name: "tropos-ar-ios-spm",
-                   dependencies: ["TroposARSDK", "CrashReporter"]
+                   dependencies: [ "AVProVideo", "CrashReporter", "TroposARSDK", "UnityFramework"]
                ),
+        
+        .binaryTarget(
+                    name: "AVProVideo",
+                    path: "lib/AVProVideo.xcframework"),
         .binaryTarget(
                     name: "CrashReporter",
                     path: "lib/CrashReporter.xcframework"),
+        .binaryTarget(
+                    name: "UnityFramework",
+                    path: "lib/UnityFramework.xcframework"),
         .binaryTarget(
                     name: "TroposARSDK",
                     path: "lib/TroposARSDK.xcframework")    ]
