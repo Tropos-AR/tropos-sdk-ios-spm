@@ -4,19 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "TroposARSDK",
+    name: "tropos-ar-ios-spm",
     platforms: [
            .iOS(.v11)
        ],
     products: [
        .library(
-            name: "TroposARSDK",
-            targets: ["TroposARSDK"])
+            name: "tropos-ar-ios-spm",
+            targets: ["tropos-ar-ios-spm", "CrashReporter", "TroposARSDK"])
     ],
     targets: [
-           .binaryTarget(
-                   name: "TroposARSDK",
-                   path: "lib/TroposARSDK.xcframework" // this is a symlink
-               )
-    ]
+        .target(
+                   name: "tropos-ar-ios-spm",
+                   dependencies: ["TroposARSDK", "CrashReporter"]
+               ),
+        .binaryTarget(
+                    name: "CrashReporter",
+                    path: "lib/CrashReporter.xcframework"),
+        .binaryTarget(
+                    name: "TroposARSDK",
+                    path: "lib/TroposARSDK.xcframework")    ]
 )
