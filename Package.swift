@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "tropos-ar-ios-spm",
     platforms: [
-           .iOS(.v11)
+           .iOS(.v13)
        ],
     products: [
        .library(
