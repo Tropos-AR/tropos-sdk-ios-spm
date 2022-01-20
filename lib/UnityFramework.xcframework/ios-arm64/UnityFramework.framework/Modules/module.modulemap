@@ -4,3 +4,8 @@ framework module UnityFramework {
   export *
   module * { export * }
 }
+
+module UnityFramework.Swift {
+    header "UnityFramework-Swift.h"
+    requires objc
+}

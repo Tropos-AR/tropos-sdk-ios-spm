@@ -1,4 +1,0 @@
-framework module TroposARSDK {
-  header "TroposARSDK-Swift.h"
-  requires objc
-}
