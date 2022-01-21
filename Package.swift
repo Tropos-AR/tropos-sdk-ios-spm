@@ -4,31 +4,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "tropos-ar-ios-spm",
+    name: "UnityFramework",
     platforms: [
            .iOS(.v13)
        ],
+  
     products: [
-       .library(
-            name: "tropos-ar-ios-spm",
-            targets: ["tropos-ar-ios-spm", "AVProVideo", "CrashReporter", "TroposARSDK", "UnityFramework"])
-    ],
+           .library(name: "UnityFramework", targets: ["UnityFramework"]),
+       ],
+   
     targets: [
-        .target(
-                   name: "tropos-ar-ios-spm",
-                   dependencies: [ "AVProVideo", "CrashReporter", "TroposARSDK", "UnityFramework"]
-               ),
-        
-        .binaryTarget(
-                    name: "AVProVideo",
-                    path: "lib/AVProVideo.xcframework"),
-        .binaryTarget(
-                    name: "CrashReporter",
-                    path: "lib/CrashReporter.xcframework"),
         .binaryTarget(
                     name: "UnityFramework",
-                    path: "lib/UnityFramework.xcframework"),
-        .binaryTarget(
-                    name: "TroposARSDK",
-                    path: "lib/TroposARSDK.xcframework")    ]
+                    path: "lib/UnityFramework.xcframework")]
+   
+                   
+        
 )

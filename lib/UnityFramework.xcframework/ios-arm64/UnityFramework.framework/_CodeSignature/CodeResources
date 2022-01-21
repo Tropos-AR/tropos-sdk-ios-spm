@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		3x1y1EE3zRQRNhoHMYpyhfIOMG8=
-		</data>
 		<key>Data/Managed/EditorToUnityLinkerData.json</key>
 		<data>
 		SN1JSiN2vD9moskuBefsTKvsqBw=
@@ -124,30 +120,6 @@
 		<data>
 		jR+syoOSoAMjIUGIcZ8O6X3L8Vc=
 		</data>
-		<key>Frameworks/AVProVideo.framework/AVProVideo</key>
-		<data>
-		lV5EPQ6pOb/YazdKIkCRP27yiRo=
-		</data>
-		<key>Frameworks/AVProVideo.framework/AVProVideo.meta</key>
-		<data>
-		MceXSa0KRnauEOHmDCK7b94Dv/M=
-		</data>
-		<key>Frameworks/AVProVideo.framework/Headers.meta</key>
-		<data>
-		JmNRydKI58Y2oS+5Bcd4mOfiY8Y=
-		</data>
-		<key>Frameworks/AVProVideo.framework/Info.plist</key>
-		<data>
-		tXtEc7ePtxJ2UyWn/mHQhublgJw=
-		</data>
-		<key>Frameworks/AVProVideo.framework/Info.plist.meta</key>
-		<data>
-		a0PC2iOVoUv8BOvHN2s3q7iEpf0=
-		</data>
-		<key>Frameworks/AVProVideo.framework/Modules.meta</key>
-		<data>
-		wYfKB60Go6Zd9kjocL0E73DF3aY=
-		</data>
 		<key>Headers/LifeCycleListener.h</key>
 		<data>
 		HY+nnMKHOyvbyXVGB6x7JKMrFIk=
@@ -172,10 +144,6 @@
 		<data>
 		IZgq6qrtapSW4aDz66yTuwVYB34=
 		</data>
-		<key>Headers/UnityFramework-Swift.h</key>
-		<data>
-		nKdlBofZl2jPkxnl/OnKnwLs+Z4=
-		</data>
 		<key>Headers/UnityFramework.h</key>
 		<data>
 		PUbGygh+dm8Y7Zq805UcgXKhFsM=
@@ -184,41 +152,9 @@
 		<data>
 		lzNZrjZ5eO+4JDwt5B4hDi/YEJo=
 		</data>
-		<key>Modules/UnityFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<data>
-		Nj10cSm17L82g4Fyf7LrTWWqtbE=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		Nj10cSm17L82g4Fyf7LrTWWqtbE=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<data>
-		036rdaXTvuKZojVcYvcwR4LHZYU=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<data>
-		H40I1smLyCvqzFXAXvDAAXJbdN8=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<data>
-		MEOwMmv72Xr7lkTT21aZmwlQUm8=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		036rdaXTvuKZojVcYvcwR4LHZYU=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		H40I1smLyCvqzFXAXvDAAXJbdN8=
-		</data>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		MEOwMmv72Xr7lkTT21aZmwlQUm8=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		4yrYR9bA1I1SfdTdgLZ17akucrM=
+		gT6dbQPwGPpe65U3etY1OXNQcAc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -426,48 +362,6 @@
 			nVcrqucnM8laNOrY76wvLk/kU409TI8Q/ujn3nCyiDs=
 			</data>
 		</dict>
-		<key>Frameworks/AVProVideo.framework/AVProVideo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AcqECnVPoeSZL69w8ZSD/6ETe0WBPjMyEZ7lVXkQxBE=
-			</data>
-		</dict>
-		<key>Frameworks/AVProVideo.framework/AVProVideo.meta</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5PApvk6AiSgefDVB/1iW2DyA8ZXA5juGpRUGxmDwloc=
-			</data>
-		</dict>
-		<key>Frameworks/AVProVideo.framework/Headers.meta</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0QmKOlaV640JBnujSGezwzWaV+9Vj+i7w2XIQzFL1OA=
-			</data>
-		</dict>
-		<key>Frameworks/AVProVideo.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OzuYCXwYBO0jbt7VUgj1I63ShCy3h4S7VQIczTkqJ/U=
-			</data>
-		</dict>
-		<key>Frameworks/AVProVideo.framework/Info.plist.meta</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kxzfu/SFKUcZeR9z8ddEQQbijJ1GzArjUN108fqxVW0=
-			</data>
-		</dict>
-		<key>Frameworks/AVProVideo.framework/Modules.meta</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mNgvKZQeuhaV7NTX2SuNSCSH5S3clKoisQi78HOFX6o=
-			</data>
-		</dict>
 		<key>Headers/LifeCycleListener.h</key>
 		<dict>
 			<key>hash2</key>
@@ -510,13 +404,6 @@
 			WiKtOJhMPr9X7VZbTpY7OzmLIfb0HtegnHsMLLBMCww=
 			</data>
 		</dict>
-		<key>Headers/UnityFramework-Swift.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rdhmbs41RKXEhtlgB2tvns4XE17fGB69Aps9R4WIfQk=
-			</data>
-		</dict>
 		<key>Headers/UnityFramework.h</key>
 		<dict>
 			<key>hash2</key>
@@ -524,67 +411,11 @@
 			qWOxktagbb1kSWkQhL1yA2Q2ZyAg3vTLkvouaQPnfyU=
 			</data>
 		</dict>
-		<key>Modules/UnityFramework.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5++tZ05yGga+qtOsm8mzL50/pWBipT0GxNoBrsjh+Qo=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5++tZ05yGga+qtOsm8mzL50/pWBipT0GxNoBrsjh+Qo=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			napkqO4B5FKjm3om4eEAcDtKIlDHAaoq0oS/ILLSX1A=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GktWq5/k2pIQjikqXGke8ahUZ0ZZbNPIHYRxzU9Dyl4=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5MfjlqlIYAh907exX2jbqJ39hU3yUX2G3GKKYmG6t+8=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			napkqO4B5FKjm3om4eEAcDtKIlDHAaoq0oS/ILLSX1A=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GktWq5/k2pIQjikqXGke8ahUZ0ZZbNPIHYRxzU9Dyl4=
-			</data>
-		</dict>
-		<key>Modules/UnityFramework.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5MfjlqlIYAh907exX2jbqJ39hU3yUX2G3GKKYmG6t+8=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8nJ6ieGCSHKQW6u7jCO+yX8bCEYyLSf2xV0aQcaUFd0=
+			BusdVonzJbIziovirbQJIvpg9m7ikf2dJ6taHoN6/zY=
 			</data>
 		</dict>
 	</dict>
